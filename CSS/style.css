@@ -5,6 +5,14 @@ body {
 
 p {
     color: #e0def4;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    color: #e0def4;
+    margin-top: 26px;
 }
 
 header {
@@ -15,8 +23,8 @@ header {
     background-color: #56526e;
 }
 
-#index_nav {
-    width: 150px;
+.index-nav {
+    width: 175px;
     height: auto;
 }
 
@@ -30,6 +38,7 @@ header {
 a {
     color: #e0def4;
     text-decoration: none;
+    font-size: 18px;
 }
 
 a:hover {
@@ -48,5 +57,28 @@ footer {
     text-align: center;
 }
 
+.note-button {
+    color: #e0def4;
+    border: none;
+    background-color: #232136;
+    text-align: center;
+    font-size: 32px;
+    margin: 12px 12px;
+    padding: 8px 12px;
+    border-radius: 47%;
+}
+
+.note-button:hover {
+    background-color: #56526e;
+}
+
+.main-container {
+    width: 25%;
+    padding-left: 25%;
+    padding-top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
 
