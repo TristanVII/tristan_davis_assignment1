@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+p {
+    color: #e0def4;
+}
+
 header {
     display: flex;
     flex-direction: row-reverse;
@@ -35,3 +39,14 @@ a:hover {
 a:visited {
     text-decoration: underline;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+
