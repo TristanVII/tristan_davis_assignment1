@@ -81,4 +81,30 @@ footer {
     justify-content: space-evenly;
 }
 
+.open-nav {
+    color: #e0def4;
+    border: none;
+    background-color: #232136;
+    font-size: 36px;
+}
+
+.open-nav:hover {
+    color: #ea9a97;
+}
+
+@media screen and (max-width: 600px) {
+    h1, p, a {
+        font-size: 12px;
+    }
+
+    .main-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main-container h1 {
+        margin: 30px 20px;
+        white-space: nowrap;
+    }
+}
 
