@@ -1,0 +1,37 @@
+body {
+    background-color: #232136;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #56526e;
+}
+
+#index_nav {
+    width: 150px;
+    height: auto;
+}
+
+.topbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a {
+    color: #e0def4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ea9a97;
+}
+
+a:visited {
+    text-decoration: underline;
+}
