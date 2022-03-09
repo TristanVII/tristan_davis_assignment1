@@ -10,7 +10,7 @@ p {
 
 h1 {
     font-family: 'Courier Prime', monospace;
-    font-size: 20px;
+    font-size: 18px;
     color: #e0def4;
     margin-top: 26px;
 }
@@ -92,6 +92,32 @@ footer {
     color: #ea9a97;
 }
 
+.note-area {
+    width: 100%;
+}
+
+.note-button-div {
+    width: 25%;
+    float: left;
+}
+
+.title-button-div {
+    margin-left: 25%;
+}
+
+textarea {
+    background-color: #191724;
+    border: none;
+    outline: none;
+    color: #e0def4;
+    resize: none;
+}
+
+::placeholder {
+    color: #e0def4;
+    font-family: 'Courier Prime', monospace;
+}
+
 @media screen and (max-width: 600px) {
     h1, p, a {
         font-size: 12px;
@@ -105,6 +131,10 @@ footer {
     .main-container h1 {
         margin: 30px 20px;
         white-space: nowrap;
+    }
+
+    .note-button {
+        font-size: 22px;
     }
 }
 
