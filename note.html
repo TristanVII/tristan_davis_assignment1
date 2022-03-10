@@ -19,8 +19,17 @@
             </ul>
         </nav>
     </header>
+    <aside>
+        <div class="sidenav">
+            <button class="open-nav"> << </button>
+            <h1>My Notes</h1>
+            <ul>
+                <li>Note One</li>
+                <li>Note Two</li>
+            </ul>
+        </div>
+    </aside>
     <main>
-        <button class="open-nav">☰</button>
         <div class="main-container">
             <div class="note-area">
                 <div class="note-button-div">
@@ -28,8 +37,13 @@
                 </div>
                 <div class="title-button-div">
                     <textarea placeholder="Your Notes Here:" cols="55" rows="15"></textarea>
+                    <div id="note-buttons">
+                        <button class="save-delete">Save</button>
+                        <button class="save-delete">Delete</button>
+                    </div>
                 </div>
             </div>
+        </div>
     </main>
     <footer>
         <p>Created by Tristan Davis</p>
