@@ -5,14 +5,15 @@ body {
 }
 
 p, li {
-    color: #e0def4;
+    color: #fffaf3;
     font-size: 14px;
+    font-family: 'Courier Prime', monospace;
 }
 
 h1 {
     font-family: 'Courier Prime', monospace;
     font-size: 18px;
-    color: #e0def4;
+    color: #fffaf3;
 }
 
 header {
@@ -35,7 +36,7 @@ header {
 
 a {
     font-family: 'Courier Prime', monospace;
-    color: #e0def4;
+    color: #fffaf3;
     text-decoration: none;
     font-size: 18px;
 }
@@ -77,14 +78,14 @@ footer {
     padding-right: 40%;
 }
 
-.open-nav {
+.open-slide-out {
     color: #e0def4;
     border: none;
     background-color: #232136;
     font-size: 36px;
 }
 
-.open-nav:hover {
+.open-slide-out:hover {
     color: #ea9a97;
 }
 
@@ -105,21 +106,21 @@ footer {
 }
 
 textarea {
-    background-color: #191724;
+    background-color: #fffaf3;
     border: none;
     outline: none;
-    color: #e0def4;
+    color: #191724;
     resize: none;
     width: 500px;
 }
 
 ::placeholder {
-    color: #e0def4;
+    color: #191724;
     font-family: 'Courier Prime', monospace;
     font-size: 14px;
 }
 
-.sidenav {
+.slide-out {
     height: 100%;
     width: 240px;
     position: fixed;
@@ -131,21 +132,21 @@ textarea {
     flex-direction: column;
   }
 
-  .sidenav li {
+  .slide-out li {
     list-style: none;
     font-size: 18px;
     padding: 5px;
     padding-left: 12%;
   }
 
-  .sidenav h1 {
+  .slide-out h1 {
       padding-left: 25%;
       font-size: 22px;
       font-weight: bolder;
       color: #ea9a97;
   }
 
-  .sidenav .open-nav {
+  .slide-out .open-slide-out {
       background-color: #56526e;
       margin-left: 70%;
   }
@@ -158,6 +159,7 @@ textarea {
     color: #e0def4;
     border: none;
     background-color: #232136;
+    font-family: 'Courier Prime', monospace;
   }
 
   .save-delete:hover {
@@ -166,7 +168,7 @@ textarea {
   
   @media screen and (max-width: 600px) {
     h1, p, a {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .main-container {
@@ -187,18 +189,18 @@ textarea {
         font-size: 14px;
     }
 
-    .sidenav {
+    .slide-out {
         width: 20%;
         margin-top: 45px;
     }
 
-    .sidenav li {
+    .slide-out li {
         list-style: none;
-        font-size: 12px;
+        font-size: 10px;
         padding: 5px;
     }
     
-      .sidenav h1 {
+    .slide-out h1 {
         padding-left: 10%;
         font-size: 14px;
     }
@@ -215,7 +217,7 @@ textarea {
         font-size: 12px;
     }
 
-    .sidenav .open-nav {
+    .slide-out .open-slide-out {
         font-size: 22px;
         margin-left: 0;
     }
